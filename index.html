@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1 class="logo">My<span>Portfolio</span></h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#projects">Projek</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <img src="img/profile.png" alt="Foto Profil" class="profile-img">
+        <h2>Halo, Saya <span>Farrell Di Derych Putra Pratama</span></h2>
+        <button onclick="scrollToContact()">Hubungi Saya</button>
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>Tentang Saya</h2>
+        <p>
+        Saya adalah mahasiswa Informatika yang memiliki ketertarikan pada pengembangan perangkat lunak, pemrograman, dan pemecahan masalah berbasis teknologi. Terbiasa berpikir logis, analitis, dan terus belajar mengikuti perkembangan dunia digital.
+        </p> 
+        </p>
+        Saya adalah Web Developer pemula yang memiliki minat besar dalam pengembangan website. saya senang mengubah ide menjadi tampilan web yang fungsional dan mudah digunakan serta terus mengembangkan skill untuk mengikuti perkembangan teknologi web.
+        </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <h2>Projek</h2>
+        <div class="project-list">
+            <div class="card">
+                <h3>Kalkulus Ninja</h3>
+                <p>Projek tim website yang membuat kalkulator yang berakaitan persamaan linear.</p>
+            </div>
+            <div class="card">
+                <h3>Vector Master</h3>
+                <p>projek tim permainan yang berkaitan dengan vector, dimana pemain menentuka kecepatan, ketinggian, dan jarak untuk menentukan pnah jatuh utuk mengenai musuh.</p>
+            </div>
+            <div class="card">
+                <h3>RAM Simulator</h3>
+                <p>Projek tim website tentang bagai mana car RAM bekerja berbasis Alokasi Memori Kontigu.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Kontak</h2>
+        <form>
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan"></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Farrell Di Derych Putra Pratama. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
