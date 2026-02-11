@@ -23,6 +23,14 @@ h2, p {
     word-wrap: break-word;
 }
 
+.about h3 {    
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+
 nav .logo {
     color: #FEC93B;      
 }
@@ -177,3 +185,4 @@ body {
     }
 
 }
+
